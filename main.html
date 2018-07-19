@@ -1,0 +1,658 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+  
+  <title>App Builders Theme</title>
+  
+  <meta name="title" content="">
+  <meta name="description" content="">
+  
+  <meta name="google-site-verification" content=""> 
+
+  <meta name="author" content="Your Name Here">
+  <meta name="Copyright" content="Copyright Your Name Here 2012. All Rights Reserved.">
+
+  <link rel="shortcut icon" href="favicon.html">
+
+  <!--Main Stylesheet-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--Slider Stylesheet-->
+  <link rel="stylesheet" href="css/anythingslider.css">
+  <!--Load Custom Font from Google Web Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+  <!--Load Modernizr, all other scripts are on the footer-->
+  <script src="echarts.min.js"></script>
+  <script src="js/modernizr-1.7.min.js"></script>
+  
+</head>
+
+<body id="top">
+
+<!--Facebook footer widget-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../../../../connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--//Facebook footer widget-->
+
+<!--Alright, let's get started-->
+
+<!--Header Section-->
+
+<div class="container_16 clearfix">
+  <header>
+    <!--your logo-->
+    <h1 class="londrina alpha grid_10"><a href="#">二手房数据分析</a></h1>
+    <!--website main navigation-->
+    <nav class="alpha omega grid_6">
+      <ul>
+        <li><a href="#top" class="active">Home</a></li>
+        <li><a href="#services-overview">Services</a></li>
+        <li><a href="#work">Apps</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="clear"></div><!--Used a lot, clear floats, see grid classes-->
+
+  <section id="lead-section" class="grid_10 push_6">
+    <h1 class="bebas">两万八千条数据<br/><span>燕居</span>还你真实的北京二手房!</h1>
+
+    <p>由SixPlus团队制作</p>
+    
+    <a href="#work" id="cta-btn">Check Them Out!</a>
+
+  </section>
+</div><!--//container-->
+
+<!--//Header Section-->
+
+<div class="clear"></div>
+
+<!--//Services Overview Section-->
+
+
+<section id="services1-overview">
+  <div class="container_16 clearfix">
+    <div class="grid_16">
+      <!--First Row-->
+      <div class="box box-1">
+
+        
+				    <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:30%">
+				    <p class="middle">    
+                    <br>
+                    <br>
+					<font size="3" color="#3C3C3C"><strong>西城，东城，海淀，朝阳四个区的房价明显超出了北京的平均房价，西城的房价最高，可能是因为离天安门最近，处于北京的中心区域。</strong></font></p>
+				</span>
+				
+				 <span id="mapDiv6" style="position:ralative;width:70%;height:300%;float: left;;overflow:hidden">
+        
+        <script type="text/javascript">
+					    mychart = echarts.init(document.getElementById("mapDiv6"));
+						option = {
+                        title : {
+                            text: '北京各区房价',
+                            subtext: ''
+                        },
+                        tooltip : {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data:['']
+                        },
+                        toolbox: {
+                            show : true,
+                            feature : {
+                                mark : {show: true},
+                                dataView : {show: true, readOnly: false},
+                                magicType: {show: true, type: ['line', 'bar']},
+                                restore : {show: true},
+                                saveAsImage : {show: true}
+                            }
+                        },
+                        calculable : true,
+                        yAxis : [
+                            {
+                                type : 'value',
+                                boundaryGap : [0, 0.01]
+                            }
+                        ],
+                    xAxis : [
+                            {
+                                type : 'category',
+                                data : ['朝阳','大兴','东城','房山','丰台','海淀','怀柔门头','沟密云','平谷','石景山','顺义','西城','延庆','北京周边']
+                            }
+                        ],
+                        series : [
+                            {
+                                name:'2011年',
+                                type:'bar',
+                                data:[76951.08886,45114.82829,98930.25108,30413.90688,58865.13131,89480.13319,32033.34402,44917.15833,24762.03869,21511.08108,56898.554,48622.51852,112242.3766,22846.99441,16002.40685]
+                            }
+                        
+                        ]
+                    };
+                    
+
+						mychart.setOption(option);
+						</script>
+				 </span>
+
+      </div>
+
+    </div>
+  </div><!--//container-->
+</section>
+
+<div class="paper"></div>
+
+<div class="clear"></div>
+
+<section id="services2-overview">
+  <div class="container_16 clearfix">
+    <div class="grid_16">
+      <!--First Row-->
+      <div class="box box-1">
+
+        
+				    <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:30%">
+				    <p class="middle">
+                            <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:25%">
+                                    <p class="middle">    
+                                    <br>
+                                    <br>
+                                    <font size="3" color="#3C3C3C"><strong>顺义作为别墅区，房屋平均面积遥遥领先</strong></font></p>
+                            </span>
+				
+				
+				 <span id="mapDiv2" style="position:ralative;width:70%;height:300%;float: left;;overflow:hidden">
+        
+        <script type="text/javascript">
+					    mychart = echarts.init(document.getElementById("mapDiv2"));
+						option = {
+                            title : {
+                                text: '北京各区房屋面积',
+                                subtext: ''
+                            },
+                            tooltip : {
+                                trigger: 'axis'
+                            },
+                            legend: {
+                                data:['']
+                            },
+                            toolbox: {
+                                show : true,
+                                feature : {
+                                    mark : {show: true},
+                                    dataView : {show: true, readOnly: false},
+                                    magicType: {show: true, type: ['line', 'bar']},
+                                    restore : {show: true},
+                                    saveAsImage : {show: true}
+                                }
+                            },
+                            calculable : true,
+                            yAxis : [
+                                {
+                                    type : 'value',
+                                    boundaryGap : [0, 0.01]
+                                }
+                            ],
+                        xAxis : [
+                                {
+                                    type : 'category',
+                                    data : ['朝阳','大兴','东城','房山','丰台','海淀','怀柔门头','沟密云','平谷','石景山','顺义','西城','延庆','北京周边']
+                                }
+                            ],
+                            series : [
+                                {
+                                    name:'2011年',
+                                    type:'bar',
+                                    data:[142.4654042,133.6118952,117.5402597,104.2678074,101.7520882,126.1231651,125.8567134,126.5833333,133.2074716,71.40540541,96.91233333,198.8888889,97.51616063,89.21787709,98.50615114
+                        ]
+                                }
+                            
+                            ]
+                        };
+                    
+
+						mychart.setOption(option);
+						</script>
+				 </span>
+
+      </div>
+
+    </div>
+  </div><!--//container-->
+</section>
+
+
+
+<section id="services3-overview">
+        <div class="container_16 clearfix">
+          <div class="grid_16">
+            <!--First Row-->
+            <div class="box box-1">
+      
+              
+                          <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:30%">
+                          <p class="middle">
+                                <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:25%">
+                                        <p class="middle">    
+                                        <br>
+                                        <br>
+                                        <font size="3" color="#3C3C3C"><strong>不同地区的二手房有着鲜明的特征:
+                                                <br>
+                                                房山的房子价格低，面积也相对较小。
+                                                丰台的房子面积小，房间数目也少。
+                                                朝阳区的大房子比较多，价格也比较贵。
+                                                大兴区和房山区新建的房子比较多。
+                                                东城区基本上都是老房子。
+                                                </strong></font></p>
+                                </span>
+                      </span>
+                      
+                       <span id="mapDiv3" style="position:ralative;width:70%;height:300%;float: left;;overflow:hidden">
+              
+              <script type="text/javascript">
+                              mychart = echarts.init(document.getElementById("mapDiv3"));
+                              
+option = {
+    title : {
+        text: '北京各区各参数平均值',
+        subtext: ''
+    },
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        orient : 'vertical',
+        x : 'right',
+        y : 'bottom',
+        data:['北京周边','朝阳','大兴','东城','房山','丰台','海淀','怀柔','门头沟','密云','平谷','石景山','顺义','西城','延庆']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    polar : [
+       {
+           indicator : [
+               { text: '平均面积（平米）', max: 198.8889},
+               { text: '平均建筑年份（年）', max: 2015.375},
+               { text: '平均房价（万元）', max: 1214.02},
+               { text: '平均单价（万元/平米）', max:112242.4},
+               { text: '平均地铁', max: 0.805093},
+               { text: '平均学区', max: 0.508325},
+               { text: '平均室', max: 3.421296}
+            ]
+        }
+    ],
+    calculable : true,
+    series : [
+        {
+            name: '预算 vs 开销（Budget vs spending）',
+            type: 'radar',
+            data : [
+                {
+                    value : [98.50615114, 2014.8058, 169.913884,16002.40685, 0.189806678, 0, 2.365553603],
+                    name : '北京周边'
+                },
+                {
+                    value : [142.4654042, 2003.726147, 1183.895412, 76951.08886, 0.731609614, 0.291332848, 2.600873999],
+                    name : '朝阳'
+                },
+                {
+                    value : [133.6118952, 2007.925739, 638.9282258, 45114.82829, 0.499327957, 0.265456989, 2.750336022],
+                    name : '大兴'
+                },
+              	{
+                    value : [117.5402597, 1999.430303, 1214.042338, 98930.25108, 0.707359307, 0, 2.470995671],
+                    name : '东城'
+                },
+                {
+                    value : [104.2678074, 2006.60963, 333.0222443, 30413.90688, 0.334261838, 0.027059292, 2.526860326],
+                    name : '房山'
+                },
+                {
+                    value : [101.7520882, 2003.557634, 626.9265954, 58865.13131, 0.678249248, 0.385566321, 2.343133979],
+                    name : '丰台'
+                },
+                {
+                    value : [126.1231651, 2001.165772, 1177.019477, 89480.13319, 0.68528464, 0.395631937, 2.571786609],
+                    name : '海淀'
+                },
+              	{
+                    value : [125.8567134, 2003.142619, 396.9248497, 32033.34402, 0.010688043, 0.259853039, 2.882765531],
+                    name : '怀柔'
+                },
+                {
+                    value : [126.5833333, 2015.375, 621.3791667, 44917.15833, 0.216666667, 0.016666667, 2.933333333],
+                    name : '门头沟'
+                },
+                {
+                    value : [133.2074716, 2007.298866, 334.6947965, 24762.03869, 0.013008672, 0.248498999, 2.775517011],
+                    name : '密云'
+                },
+                {
+                    value : [71.40540541, 2014.324324, 156.1891892, 21511.08108, 0.513513514, 0.216216216, 1.972972973],
+                    name : '平谷'
+                },
+              	{
+                    value : [96.91233333, 1999.724, 587.1617, 56898.554, 0.653, 0.490666667, 2.352],
+                    name : '石景山'
+                },
+                {
+                    value : [198.8888889, 2008.597222, 1072.069444, 48622.51852, 0.384259259, 0.175925926, 3.421296296],
+                    name : '顺义'
+                },
+                {
+                    value : [97.51616063, 1996.385896, 1120.633056, 112242.3766, 0.805093046, 0.508325171, 2.39079334],
+                    name : '西城'
+                },
+                {
+                    value : [89.21787709, 2005.871508, 209.0385475, 22846.99441, 0.016759777, 0.189944134, 2.536312849],
+                    name : '延庆'
+                },
+              	{
+                    value : [125.8567134, 2003.142619, 396.9248497, 32033.34402, 0.010688043, 0.259853039, 2.882765531],
+                    name : '怀柔'
+                },
+            ]
+        }
+    ]
+};
+                    
+                          
+      
+                              mychart.setOption(option);
+                              </script>
+                       </span>
+      
+            </div>
+      
+          </div>
+        </div><!--//container-->
+      </section>
+      
+      <div class="paper"></div>
+      
+      <div class="clear"></div>
+
+<section id="services4-overview">
+            <div class="container_16 clearfix">
+              <div class="grid_16">
+                <!--First Row-->
+                <div class="box box-1">
+          
+                  
+                              <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:30%">
+                              <p class="middle">
+                                    <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:25%">
+                                            <p class="middle">    
+                                            <br>
+                                            <br>
+                                            <font size="3" color="#3C3C3C"><strong>朝阳区是商区，朝阳区房价和房屋面积都较高，学区房和地铁房较多，但相对来说地铁房更多，。
+                                                    海淀区集中了大量高校及其附属学校。房价高，房屋面积适中，学区房和地铁房也都较多，学区房更多一点
+                                                    石景山是郊区，房价和房屋面积都较低，学区房较多（北航附中）
+
+                                                    </strong></font></p>
+                                    </span>
+                          </span>
+                          
+                           <span id="mapDiv4" style="position:ralative;width:70%;height:300%;float: left;;overflow:hidden">
+                  
+                  <script type="text/javascript">
+                                  mychart = echarts.init(document.getElementById("mapDiv4"));
+                                  
+                                  option = {
+  title : {
+        text: '代表区域房型',
+        subtext: ''
+    },
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    legend: {
+        data:['学区地铁房', '学区非地铁房','地铁非学区房','非学区非地铁房']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    calculable : true,
+    xAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    yAxis : [
+        {
+            type : 'category',
+            data : ['顺义', '石景山','海淀','朝阳','丰台','东城']
+        }
+    ],
+    series : [
+        {
+            name:'学区地铁房',
+            type:'bar',
+            stack: '总量',
+            itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+            data:[17, 1115, 981, 758, 974, 0]
+        },
+        {
+            name:'学区非地铁房',
+            type:'bar',
+            stack: '总量',
+            itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+            data:[21, 357, 125, 44, 181, 0]
+        },
+        {
+            name:'地铁非学区房',
+            type:'bar',
+            stack: '总量',
+            itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+            data:[66,844,947,1265,1057,835]
+        },
+        {
+            name:'非学区非地铁房',
+            type:'bar',
+            stack: '总量',
+            itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+            data:[113,684,757,703,782,347]
+        }
+       
+    ]
+};
+                    
+                        
+                              
+          
+                                  mychart.setOption(option);
+                                  </script>
+                           </span>
+          
+                </div>
+          
+              </div>
+            </div><!--//container-->
+          </section>
+          
+         
+
+<section id="services5-overview">
+                <div class="container_16 clearfix">
+                  <div class="grid_16">
+                    <!--First Row-->
+                    <div class="box box-1">
+              
+                      
+                                  <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:30%">
+                                  <p class="middle">
+                                        <span class="swiper-text" style="color:black;text-align:justify;position:relative;float:right;width:25%">
+                                        <p class="middle">    
+                                        <br>
+                                        <br>
+                                        <font size="3" color="#3C3C3C"><strong>顺义因为是别墅区房屋面积大，房屋单价相对较低，学区房和地铁房也非常少。</strong></font></p>
+                              </span>
+                              
+                               <span id="mapDiv5" style="position:ralative;width:70%;height:300%;float: left;;overflow:hidden">
+                      
+                      <script type="text/javascript">
+                                      mychart = echarts.init(document.getElementById("mapDiv5"));
+                                      
+                                      option = {
+    title : {
+        text: '代表区域房价与面积',
+        subtext: ''
+    },
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['unitprice','area']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    calculable : true,
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            data : ['东城','丰台','朝阳','海淀','石景山','顺义']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value',
+            axisLabel : {
+                formatter: '{value} k'
+            }
+          
+        }
+      
+    ],
+    series : [
+        {
+            name:'unitprice',
+            type:'line',
+            data:[99583.77, 58872.19, 77172.79, 89871.85, 50898.55, 48733.45],
+            markPoint : {
+                data : [
+                    {type : 'max', name: '最大值'},
+                    {type : 'min', name: '最小值'}
+                ]
+            },
+            markLine : {
+                data : [
+                    {type : 'average', name: '平均值'}
+                ]
+            }
+        },
+        {
+            name:'area',
+            type:'line',
+            data:[119.66,101.73,149.00,128.38,96.91,202.09],
+            markPoint : {
+                data : [
+                    {type : 'max', name: '最大值'},
+                    {type : 'min', name: '最小值'}
+                ]
+            },
+            markLine : {
+                data : [
+                    {type : 'average', name : '平均值'}
+                ]
+            }
+        }
+    ]
+};
+                    
+                                      mychart.setOption(option);
+                                      </script>
+                               </span>
+              
+                    </div>
+              
+                  </div>
+                </div><!--//container-->
+              </section>
+              
+              <div class="paper"></div>
+              
+              <div class="clear"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+              
+
+
+              
+
+
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
+<script src="js/jquery.easing.1.2.js"></script>
+<script src="js/jquery.scrollTo-min.js"></script>
+<script src="js/jquery.localscroll-min.js"></script>
+<script src="js/jquery.anythingslider.js"></script>
+<script src="js/jquery.tweet.js"></script>
+<script src="js/jquery.watermark.min.js"></script>
+<script src="js/easypaginate.min.js"></script>
+<script src="js/jquery.leanModal.min.js"></script>
+<script src="echarts.min.js"></script>
+<!-- Our custom functions -->
+<script src="js/functions.js"></script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
