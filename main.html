@@ -108,99 +108,50 @@
         
         <script type="text/javascript">
 					    mychart = echarts.init(document.getElementById("mapDiv1"));
-                        var	option = {
-								 title : {
-								        text: '上交 vs 西交大学排名',
-								        subtext: '数据来源中国校友会网',
-								        left: 'center',
-					    	            textStyle: {
-								            color: '#272727',
-								            fontSize:25,
-								        }
-								    },
-							    tooltip : {
-							        trigger: 'axis'
-							    }, 
-							    calculable : true,
-							    legend: {
-							        data: ['上海交通大学', '西安交通大学'],
-							        itemGap: 10,
-						            orient: 'horizontal',
-							        textStyle: {
-							            //color: '#fff',
-							            fontSize: 14
-							        },
-							       left:'center',
-							       top:'12%'
-							        //selectedMode: 'single'
-							    },
-							    grid: {
-							    	width:'60%',
-							    	left:'5%'
-							    	
-							    },
-							    xAxis : [
-							        {
-							            type : 'category',
-							            data : ['2007','2008','2009','2010','2011','2012','2013','2014','2015','2016'],
-							            
-							        }
-							    ],
-							    yAxis : [
-							        {
-							            type : 'value',
-							            splitLine: {
-							                show: false,
-							                
-							            },
-							           
-							        }
-							    ],
-							    series : [
-							        {
-							            name:'上海交通大学',
-							            type:'bar',
-							            data:[3,3,3,5,5,5,5,3,7,7],
-							            itemStyle: {
-							                normal: {
-							                    color: '#AA0000'
-							                }
-							            },
-							            markPoint : {
-							                data : [
-							                    {type : 'max', name: '最大值'},
-							                    {type : 'min', name: '最小值'}
-							                ]
-							            },
-							            markLine : {
-							                data : [
-							                    {type : 'average', name: '平均值'}
-							                ]
-							            }
-							        },
-							        {
-							            name:'西安交通大学',
-							            type:'bar',
-							            data:[23,20,22,21,18,17,16,18,17,17],
-							            itemStyle: {
-							                normal: {
-							                    color: '#004B97'
-							                }
-							            },
-							            markPoint : {
-							                data : [
-							                	 {type : 'max', name: '最大值'},
-								                 {type : 'min', name: '最小值'}
-							                ]
-							            },
-							            markLine : {
-							                data : [
-							                    {type : 'average', name : '平均值'}
-							                ]
-							            }
-							        }
-							    ]
-							};
+						var	option = {
+					    title : {
+						text: '北京各区房价',
+						subtext: ''
+					    },
+					    tooltip : {
+						trigger: 'axis'
+					    },
+					    legend: {
+						data:['']
+					    },
+					    toolbox: {
+						show : true,
+						feature : {
+						    mark : {show: true},
+						    dataView : {show: true, readOnly: false},
+						    magicType: {show: true, type: ['line', 'bar']},
+						    restore : {show: true},
+						    saveAsImage : {show: true}
+						}
+					    },
+					    calculable : true,
+					    yAxis : [
+						{
+						    type : 'value',
+						    boundaryGap : [0, 0.01]
+						}
+					    ],
+					   xAxis : [
+						{
+						    type : 'category',
+						    data : ['朝阳','大兴','东城','房山','丰台','海淀','怀柔门头','沟密云','平谷','石景山','顺义','西城','延庆','北京周边']
+						}
+					    ],
+					    series : [
+						{
+						    name:'2011年',
+						    type:'bar',
+						    data:[76951.08886,45114.82829,98930.25108,30413.90688,58865.13131,89480.13319,32033.34402,44917.15833,24762.03869,21511.08108,56898.554,48622.51852,112242.3766,22846.99441,16002.40685]
+						}
+
+					    ]
+					};
+                    
 
 						mychart.setOption(option);
 						</script>
