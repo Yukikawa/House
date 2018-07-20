@@ -10,7 +10,7 @@ Version: 1.0
 /*----------------------------------------------
  Let's Start Off with the Grid (992-16-10-10)
 ----------------------------------------------*/
-body {min-width: 960px;}.container_16{margin-left: auto;margin-right: auto;width:100%;}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16 {display: inline;float: left;margin-left: 10px;margin-right: 10px;}.push_1, .pull_1,.push_2, .pull_2,.push_3, .pull_3,.push_4, .pull_4,.push_5, .pull_5,.push_6, .pull_6,.push_7, .pull_7,.push_8, .pull_8,.push_9, .pull_9,.push_10, .pull_10,.push_11, .pull_11,.push_12, .pull_12,.push_13, .pull_13,.push_14, .pull_14,.push_15, .pull_15 {position: relative;}.alpha {margin-left: 0;}.omega {margin-right: 0;}.container_16 .grid_1 {width: 42px;}.container_16 .grid_2 {width: 104px;}.container_16 .grid_3 {width: 166px;}.container_16 .grid_4 {width: 228px;}.container_16 .grid_5 {width: 290px;}.container_16 .grid_6 {width: 352px;}.container_16 .grid_7 {width: 414px;}.container_16 .grid_8 {width: 476px;}.container_16 .grid_9 {width: 538px;}.container_16 .grid_10 {width: 600px;}.container_16 .grid_11 {width: 662px;}.container_16 .grid_12 {width: 724px;}.container_16 .grid_13 {width: 786px;}.container_16 .grid_14 {width: 848px;}.container_16 .grid_15 {width: 910px;}.container_16 .grid_16 {width: 972px;}.container_16 .prefix_1 {padding-left: 62px;}.container_16 .prefix_2 {padding-left: 124px;}.container_16 .prefix_3 {padding-left: 186px;}.container_16 .prefix_4 {padding-left: 248px;}.container_16 .prefix_5 {padding-left: 310px;}.container_16 .prefix_6 {padding-left: 372px;}.container_16 .prefix_7 {padding-left: 434px;}.container_16 .prefix_8 {padding-left: 496px;}.container_16 .prefix_9 {padding-left: 558px;}.container_16 .prefix_10 {padding-left: 620px;}.container_16 .prefix_11 {padding-left: 682px;}.container_16 .prefix_12 {padding-left: 744px;}.container_16 .prefix_13 {padding-left: 806px;}.container_16 .prefix_14 {padding-left: 868px;}.container_16 .prefix_15 {padding-left: 930px;}.container_16 .suffix_1 {padding-right: 62px;}.container_16 .suffix_2 {padding-right: 124px;}.container_16 .suffix_3 {padding-right: 186px;}.container_16 .suffix_4 {padding-right: 248px;}.container_16 .suffix_5 {padding-right: 310px;}.container_16 .suffix_6 {padding-right: 372px;}.container_16 .suffix_7 {padding-right: 434px;}.container_16 .suffix_8 {padding-right: 496px;}.container_16 .suffix_9 {padding-right: 558px;}.container_16 .suffix_10 {padding-right: 620px;}.container_16 .suffix_11 {padding-right: 682px;}.container_16 .suffix_12 {padding-right: 744px;}.container_16 .suffix_13 {padding-right: 806px;}.container_16 .suffix_14 {padding-right: 868px;}.container_16 .suffix_15 {padding-right: 930px;}.container_16 .push_1 {left: 62px;}.container_16 .push_2 {left: 124px;}.container_16 .push_3 {left: 186px;}.container_16 .push_4 {left: 248px;}.container_16 .push_5 {left: 310px;}.container_16 .push_6 {left: 372px;}.container_16 .push_7 {left: 434px;}.container_16 .push_8 {left: 496px;}.container_16 .push_9 {left: 558px;}.container_16 .push_10 {left: 620px;}.container_16 .push_11 {left: 682px;}.container_16 .push_12 {left: 744px;}.container_16 .push_13 {left: 806px;}.container_16 .push_14 {left: 868px;}.container_16 .push_15 {left: 930px;}.container_16 .pull_1 {left: -62px;}.container_16 .pull_2 {left: -124px;}.container_16 .pull_3 {left: -186px;}.container_16 .pull_4 {left: -248px;}.container_16 .pull_5 {left: -310px;}.container_16 .pull_6 {left: -372px;}.container_16 .pull_7 {left: -434px;}.container_16 .pull_8 {left: -496px;}.container_16 .pull_9 {left: -558px;}.container_16 .pull_10 {left: -620px;}.container_16 .pull_11 {left: -682px;}.container_16 .pull_12 {left: -744px;}.container_16 .pull_13 {left: -806px;}.container_16 .pull_14 {left: -868px;}.container_16 .pull_15 {left: -930px;}.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}.clearfix:before,.clearfix:after {content: "\0020";display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}.clearfix:after {clear: both;}.clearfix {zoom: 1;}
+body {min-width: 500px;}.container_16{margin-left: 0;margin-right: 0;width:100%;}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16 {display: inline;float:left;margin-left:0;margin-right:0;}.push_1, .pull_1,.push_2, .pull_2,.push_3, .pull_3,.push_4, .pull_4,.push_5, .pull_5,.push_6, .pull_6,.push_7, .pull_7,.push_8, .pull_8,.push_9, .pull_9,.push_10, .pull_10,.push_11, .pull_11,.push_12, .pull_12,.push_13, .pull_13,.push_14, .pull_14,.push_15, .pull_15 {position: relative;}.alpha {margin-left: 0;}.omega {margin-right: 0;}.container_16 .grid_1 {width: 42px;}.container_16 .grid_2 {width: 104px;}.container_16 .grid_3 {width: 166px;}.container_16 .grid_4 {width: 228px;}.container_16 .grid_5 {width: 290px;}.container_16 .grid_6 {width: auto;}.container_16 .grid_7 {width: 414px;}.container_16 .grid_8 {width: 476px;}.container_16 .grid_9 {width: 538px;}.container_16 .grid_10 {width: 600px;}.container_16 .grid_11 {width: 662px;}.container_16 .grid_12 {width: 724px;}.container_16 .grid_13 {width: 786px;}.container_16 .grid_14 {width: 848px;}.container_16 .grid_15 {width: 910px;}.container_16 .grid_16 {width: auto;}.container_16 .prefix_1 {padding-left: 62px;}.container_16 .prefix_2 {padding-left: 124px;}.container_16 .prefix_3 {padding-left: 186px;}.container_16 .prefix_4 {padding-left: 248px;}.container_16 .prefix_5 {padding-left: 310px;}.container_16 .prefix_6 {padding-left: 372px;}.container_16 .prefix_7 {padding-left: 434px;}.container_16 .prefix_8 {padding-left: 496px;}.container_16 .prefix_9 {padding-left: 558px;}.container_16 .prefix_10 {padding-left: 620px;}.container_16 .prefix_11 {padding-left: 682px;}.container_16 .prefix_12 {padding-left: 744px;}.container_16 .prefix_13 {padding-left: 806px;}.container_16 .prefix_14 {padding-left: 868px;}.container_16 .prefix_15 {padding-left: 930px;}.container_16 .suffix_1 {padding-right: 62px;}.container_16 .suffix_2 {padding-right: 124px;}.container_16 .suffix_3 {padding-right: 186px;}.container_16 .suffix_4 {padding-right: 248px;}.container_16 .suffix_5 {padding-right: 310px;}.container_16 .suffix_6 {padding-right: 372px;}.container_16 .suffix_7 {padding-right: 434px;}.container_16 .suffix_8 {padding-right: 496px;}.container_16 .suffix_9 {padding-right: 558px;}.container_16 .suffix_10 {padding-right: 620px;}.container_16 .suffix_11 {padding-right: 682px;}.container_16 .suffix_12 {padding-right: 744px;}.container_16 .suffix_13 {padding-right: 806px;}.container_16 .suffix_14 {padding-right: 868px;}.container_16 .suffix_15 {padding-right: 930px;}.container_16 .push_1 {left: 62px;}.container_16 .push_2 {left: 124px;}.container_16 .push_3 {left: 186px;}.container_16 .push_4 {left: 248px;}.container_16 .push_5 {left: 310px;}.container_16 .push_6 {left: 372px;}.container_16 .push_7 {left: 434px;}.container_16 .push_8 {left: 496px;}.container_16 .push_9 {left: 558px;}.container_16 .push_10 {left: 620px;}.container_16 .push_11 {left: 682px;}.container_16 .push_12 {left: 744px;}.container_16 .push_13 {left: 806px;}.container_16 .push_14 {left: 868px;}.container_16 .push_15 {left: 930px;}.container_16 .pull_1 {left: -62px;}.container_16 .pull_2 {left: -124px;}.container_16 .pull_3 {left: -186px;}.container_16 .pull_4 {left: -248px;}.container_16 .pull_5 {left: -310px;}.container_16 .pull_6 {left: -372px;}.container_16 .pull_7 {left: -434px;}.container_16 .pull_8 {left: -496px;}.container_16 .pull_9 {left: -558px;}.container_16 .pull_10 {left: -620px;}.container_16 .pull_11 {left: -682px;}.container_16 .pull_12 {left: -744px;}.container_16 .pull_13 {left: -806px;}.container_16 .pull_14 {left: -868px;}.container_16 .pull_15 {left: -930px;}.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}.clearfix:before,.clearfix:after {content: "\0020";display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}.clearfix:after {clear: both;}.clearfix {zoom: 1;}
 
 /*----------------------------------------------
  Now let's Reset Stuff
@@ -202,8 +202,8 @@ nav a.active,
  4) Header & Navigation
 --------------------------------*/
 
-header { margin: 0 12px 0 12px;}
-header h1 a{ font-size: 48px; color: #fff; text-shadow: 0px 2px 0px #5C999B; display: block; padding: 14px 0 0 10px;} /*Your Logo*/
+header { margin-left:auto;margin-right:auto}
+header h1 a{ font-size: 48px; color: #fff; text-shadow: 0px 2px 0px #5C999B; display: block; padding-left:2%;padding-right:3%;} /*Your Logo*/
 
 nav { font-size: 16px; font-weight: bold; } 
 nav li { display: inline; float: left; margin-left: 18px;}
@@ -214,7 +214,7 @@ nav a.active { background-position: 0 0; width: 42px; height: 24px; }
  5) Lead Text
 --------------------------------*/
 
-#lead-section h1 { padding: 31px 0 0 7px; color: #fff; text-shadow: 0px 2px 0px rgba(34,78,89,0.25); font-size: 72px; line-height: 94px;}
+#lead-section h1 { padding: 10% 0 0 5%; color: #fff; text-shadow: 0px 2px 0px rgba(34,78,89,0.25); font-size: 72px; line-height: 94px;}
 #lead-section h1 span { font-size: 128px; margin-left: -7px;}
 
 #lead-section p { font-size: 14px; color: #224e59; text-shadow: 0px 1px 0px rgba(255,255,255,0.25); line-height: 18px;}
@@ -229,19 +229,18 @@ nav a.active { background-position: 0 0; width: 42px; height: 24px; }
  6) Services Overview Section
 --------------------------------*/
 
-#services-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 40px;}
+#services-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: auto;}
 #services-overview .box { width: 290px; float: left; margin-left: 35px;}
 #services-overview .box-1,
 #services-overview .box-4  { width: 290px; float: left; margin-left: 20px !important; /*Override the 40px margin for the left most boxes*/}
 #services-overview .box h2 { text-transform: uppercase; font-size: 22px; color: #5a9692; padding-top: 45px; padding-bottom: 8px;}
 #services-overview h2.bottom { padding-top: 37px !important; /*bottom row has less padding-top*/} 
 #services-overview .box p { font-size: 12px; color: #7e7e7e; line-height: 17px;}
-#services1-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 40px;}
-#services3-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 40px;}
-#services5-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 40px;}
-
-
-
+#services1-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 0;}
+#services3-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 0;}
+#services5-overview { background: #fff; box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 0;}
+#services2-overview { box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 0;}
+#services4-overview { box-shadow: 0 -1px 0 rgba(118,181,177,0.25); padding-bottom: 0;}
 
 /*Box #1*/
 #services-overview .box-1 h2 { background: url('images/box_1_icon.png') no-repeat 0% 84%; padding-left: 35px;}
@@ -270,7 +269,7 @@ nav a.active { background-position: 0 0; width: 42px; height: 24px; }
 
 #work p.description { color: #fff; text-shadow: 0px 2px 0px rgba(34,78,89,0.25); font-size: 14px; line-height: 18px; margin-left: -11px; padding-top: 115px;}
 
-.item-container { float: left; margin-left: 33px; padding-bottom: 15px; background: #f5f1e6; height: 265px; min-height: 265px; height: auto !important; width: 290px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0 1px 0 rgba(0,0,0,0.20);}
+.item-container { float: left; margin-left: auto; padding-bottom: auto; background: #f5f1e6; height: 90%; min-height: 90%; height: auto !important; width: 100%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0 1px 0 rgba(0,0,0,0.20);}
 .item-container.first {margin-left: 18px;} /*first box has less margin*/
 .item-container h3 { font-size: 22px; color: #9aac49; width: 165px; padding: 15px 0 6px 15px; text-transform: uppercase;}
 .item-container p {width: 155px !important;/*important declared to override grid width*/ color: #7e7e7e; font-size: 12px; padding: 0 0 10px 10px; line-height: 16px;}
