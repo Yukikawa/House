@@ -45,7 +45,7 @@
   <div class="clear"></div><!--Used a lot, clear floats, see grid classes-->
 
   <section id="lead-section" class="grid_10 push_6">
-    <h1 class="bebas">两万八千条数据<br><strong>燕居</strong></br>还你真实的北京二手房!</h1>
+    <h1 class="bebas" style="font-size:60px">两万八千条数据<br/><span><strong>燕居</strong></span>还你真实的北京二手房!</h1>
 
     <p>由SixPlus团队制作</p>
     
@@ -70,7 +70,7 @@
         
 				   
 				
-				 <div id="mapDiv1" style="position:ralative;width:100%;height:300%;float:left；overflow:visible">
+				 <div id="mapDiv1" style="position:ralative;width:100%;height:300%;float:left;overflow:hidden">
         
         <script type="text/javascript">
 					    mychart = echarts.init(document.getElementById("mapDiv1"));
@@ -141,7 +141,7 @@
 <section id="services2-overview">
     <div class="container_16 clearfix">
 
-                   <div id="mapDiv2" style="position:ralative;width:100%;height:300%;float: left;overflow:visible">
+                   <div id="mapDiv2" style="position:ralative;width:100%;height:300%;float: left;;overflow:hidden">
           
           <script type="text/javascript">
                           mychart = echarts.init(document.getElementById("mapDiv2"));
@@ -212,7 +212,7 @@
         <div class="container_16 clearfix">    
                                 
                       
-                       <div id="mapDiv3" style="position:ralative;width:100%;height:300%;float: left;overflow:visible">
+                       <div id="mapDiv3" style="position:ralative;width:100%;height:300%;float: left;;overflow:hidden">
               
               <script type="text/javascript">
                               mychart = echarts.init(document.getElementById("mapDiv3"));
@@ -229,8 +229,9 @@ option = {
         orient : 'vertical',
         x : 'right',
         y : 'bottom',
-        data:['北京周边','朝阳','大兴','东城','房山','丰台','海淀','怀柔','门头沟','密云','平谷','石景山','顺义','西城','延庆']
-    	selected:{'北京周边':false,'朝阳':false,'大兴':false,'东城':false,'房山':false,'丰台':false,'海淀':true,'怀柔':false,'门头沟':false,'密云':false,'平谷':false,'石景山':false,'顺义':false,'西城':false,'延庆':false}
+        data:['北京周边','朝阳','大兴','东城','房山','丰台','海淀','怀柔','门头沟','密云','平谷','石景山','顺义','西城','延庆'],
+        selected:{'北京周边':false,'朝阳':false,'大兴':false,'东城':false,'房山':false,'丰台':false,'海淀':true,'怀柔':false,'门头沟':false,'密云':false,'平谷':false,'石景山':false,'顺义':false,'西城':false,'延庆':false}
+   
     },
     toolbox: {
         show : true,
@@ -255,6 +256,7 @@ option = {
         }
     ],
     calculable : true,
+    
     series : [
         {
             name: '预算 vs 开销（Budget vs spending）',
@@ -262,7 +264,8 @@ option = {
             data : [
                 {
                     value : [98.50615114, 2014.8058, 169.913884,16002.40685, 0.189806678, 0, 2.365553603],
-                    name : '北京周边'
+                    name : '北京周边',
+                    
                 },
                 {
                     value : [142.4654042, 2003.726147, 1183.895412, 76951.08886, 0.731609614, 0.291332848, 2.600873999],
@@ -361,7 +364,7 @@ option = {
             <div class="container_16 clearfix">
           
                          
-                           <div id="mapDiv4" style="position:ralative;width:100%;height:300%;float: left;overflow:visible">
+                           <div id="mapDiv4" style="position:ralative;width:100%;height:300%;float: left;;overflow:hidden">
                   
                   <script type="text/javascript">
                                   mychart = echarts.init(document.getElementById("mapDiv4"));
@@ -464,7 +467,7 @@ option = {
           <section id="services5-overview">
             <div class="container_16 clearfix">
             
-                           <div id="mapDiv5" style="position:ralative;width:100%;height:300%;float: left;overflow:visible">
+                           <div id="mapDiv5" style="position:ralative;width:100%;height:300%;float: left;;overflow:hidden">
                   
                   <script type="text/javascript">
                                   mychart = echarts.init(document.getElementById("mapDiv5"));
